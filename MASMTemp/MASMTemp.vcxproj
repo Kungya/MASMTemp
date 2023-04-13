@@ -95,6 +95,15 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
+    <MASM>
+      <GeneratePreprocessedSourceListing>true</GeneratePreprocessedSourceListing>
+    </MASM>
+    <MASM>
+      <ListAllAvailableInformation>true</ListAllAvailableInformation>
+    </MASM>
+    <MASM>
+      <AssembledCodeListingFile>$(ProjectName).lst</AssembledCodeListingFile>
+    </MASM>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
